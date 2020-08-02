@@ -7,5 +7,5 @@ After cloning, follow the steps:<br/>
   &nbsp;&nbsp;1° cd Todo-App/<br/>
   &nbsp;&nbsp;2° npm install<br/>
   &nbsp;&nbsp;3° npm run build (creates the application files)<br/>
- <br/>
+ 
  Open file .html in public folder
