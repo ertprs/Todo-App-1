@@ -1,0 +1,15 @@
+.actions{
+    width: 25%;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.done{
+    color: gray;
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 20px;
+
+}
