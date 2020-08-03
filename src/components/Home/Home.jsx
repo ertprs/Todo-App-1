@@ -35,6 +35,8 @@ export default () => {
             taskDescription: description
         }
 
+        setDescription('')
+
         let resultList = list
         resultList.push(task)
 

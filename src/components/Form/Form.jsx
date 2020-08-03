@@ -4,6 +4,13 @@ import Button from '../Button/Button.jsx'
 
 const Form = (props) => {
 
+    const input = React.useRef(null)
+
+    const additing = () => {
+        props.handleAdd()
+        input.current.focus()
+    }
+
     return (
         <div className="form">
             <center>
@@ -13,8 +20,9 @@ const Form = (props) => {
                     placeholder="Digite a tarefa"
                     value={props.description}
                     onChange={(e) => props.setDescription(e.target.value)}
+                    ref={input}
                 />
-                <Button icon="fa fa-plus" btn="btn btn-danger" onClick={props.handleAdd} />
+                <Button icon="fa fa-plus" btn="btn btn-danger" onClick={additing} />
             </center>
         </div>
     )
