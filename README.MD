@@ -8,4 +8,4 @@ After cloning, follow the steps:<br/>
   &nbsp;&nbsp;2° npm install<br/>
   &nbsp;&nbsp;3° npm run build (creates the application files)<br/>
  
- Open file .html in public folder
+ Open file .html in public 
