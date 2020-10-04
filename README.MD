@@ -6,6 +6,18 @@ to start using this app, clone this repository using this command: git clone htt
 After cloning, follow the steps:<br/>
   &nbsp;&nbsp;1° cd Todo-App/<br/>
   &nbsp;&nbsp;2° npm install<br/>
-  &nbsp;&nbsp;3° npm run build (creates the application files)<br/>
- 
- Open file .html in public folder
+  &nbsp;&nbsp;3° npm run build (initializes the application)<br/>
+
+Information:
+Route: http://localhost:3030/register/
+method: POST
+required fields: name, email, cpf, cell, password
+
+Route: http://localhost:3030/login/
+method: POST
+required fields: email, password
+
+Route: http://localhost:3030/users/
+method: GET
+required fields: no required fields
+Headers: Authorization -> your token made available when you sign in
