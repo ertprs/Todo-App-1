@@ -6,4 +6,6 @@ to start using this app, clone this repository using this command: git clone htt
 After cloning, follow the steps:<br/>
   &nbsp;&nbsp;1° cd Todo-App/<br/>
   &nbsp;&nbsp;2° npm install<br/>
-  &nbsp;&nbsp;3° npm run build (initializes the application)<br/>
+  &nbsp;&nbsp;3° npm run build<br/>
+  
+ open file .html in public folder
